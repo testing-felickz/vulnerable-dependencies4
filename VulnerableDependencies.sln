@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F13CD76-DCD3-4966-9EF1-D0D0A276542E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VulnerableLibrary", "src\VulnerableLibrary\VulnerableLibrary.csproj", "{F58AEB1A-00D4-4B11-9B6B-0896BC8321B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VulnerableApp", "src\VulnerableApp\VulnerableApp.csproj", "{C236A3CC-82F6-47C4-B638-58331F084079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VulnerableWebApi", "src\VulnerableWebApi\VulnerableWebApi.csproj", "{71520DF2-7F77-4F7E-9329-6325D7B477E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F0FD14A7-BA7C-49C4-AE9F-2BDD9EF9E7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VulnerableLibrary.Tests", "tests\VulnerableLibrary.Tests\VulnerableLibrary.Tests.csproj", "{4F160885-3C63-40AB-87BE-17A140EEBA74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F58AEB1A-00D4-4B11-9B6B-0896BC8321B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58AEB1A-00D4-4B11-9B6B-0896BC8321B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58AEB1A-00D4-4B11-9B6B-0896BC8321B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58AEB1A-00D4-4B11-9B6B-0896BC8321B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C236A3CC-82F6-47C4-B638-58331F084079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C236A3CC-82F6-47C4-B638-58331F084079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C236A3CC-82F6-47C4-B638-58331F084079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C236A3CC-82F6-47C4-B638-58331F084079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71520DF2-7F77-4F7E-9329-6325D7B477E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71520DF2-7F77-4F7E-9329-6325D7B477E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71520DF2-7F77-4F7E-9329-6325D7B477E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71520DF2-7F77-4F7E-9329-6325D7B477E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F160885-3C63-40AB-87BE-17A140EEBA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F160885-3C63-40AB-87BE-17A140EEBA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F160885-3C63-40AB-87BE-17A140EEBA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F160885-3C63-40AB-87BE-17A140EEBA74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F58AEB1A-00D4-4B11-9B6B-0896BC8321B6} = {7F13CD76-DCD3-4966-9EF1-D0D0A276542E}
+		{C236A3CC-82F6-47C4-B638-58331F084079} = {7F13CD76-DCD3-4966-9EF1-D0D0A276542E}
+		{71520DF2-7F77-4F7E-9329-6325D7B477E4} = {7F13CD76-DCD3-4966-9EF1-D0D0A276542E}
+		{4F160885-3C63-40AB-87BE-17A140EEBA74} = {F0FD14A7-BA7C-49C4-AE9F-2BDD9EF9E7B6}
+	EndGlobalSection
+EndGlobal

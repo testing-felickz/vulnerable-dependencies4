@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Deliberately vulnerable packages for demonstration -->
+    <PackageVersion Include="Newtonsoft.Json" Version="12.0.1" /> <!-- CVE-2024-0057 -->
+    <PackageVersion Include="System.Text.Json" Version="6.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+    <PackageVersion Include="System.Net.Http" Version="4.3.0" /> <!-- Has known vulnerabilities -->
+    <PackageVersion Include="NLog" Version="4.7.0" /> <!-- Older version with vulnerabilities -->
+    
+    <!-- Test packages -->
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageVersion Include="xunit" Version="2.4.2" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.5" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.0" />
+  </ItemGroup>
+</Project>
