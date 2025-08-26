@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Direct vulnerable dependencies for demonstration -->
+    <PackageVersion Include="Newtonsoft.Json" Version="10.0.1" />
+    <PackageVersion Include="NLog" Version="4.4.0" />
+    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="5.1.0" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="1.0.19239.1" />
+    
+    <!-- Dependencies that will bring in vulnerable transitive dependencies -->
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="3.1.0" />
+    
+    <!-- Standard packages for functionality -->
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+</Project>
