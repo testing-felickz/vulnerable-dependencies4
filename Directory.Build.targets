@@ -1,0 +1,5 @@
+<Project>
+  <Target Name="OverridePackageVersions" BeforeTargets="CollectPackageReferences">
+    <Message Text="Using centrally defined package versions for this solution" Importance="High" />
+  </Target>
+</Project>
