@@ -37,3 +37,5 @@ jobs:
           #   fail-on-severity: moderate
           #   deny-licenses: GPL-1.0-or-later, LGPL-2.0-or-later
           retry-on-snapshot-warnings: true #wait for snapshots to upload from the auto-submission workflow!
+          retry-on-snapshot-warnings-timeout: 120
+
