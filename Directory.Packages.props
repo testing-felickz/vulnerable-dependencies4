@@ -11,7 +11,8 @@
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
     
     <!-- Vulnerable direct dependencies -->
-    <PackageVersion Include="Newtonsoft.Json" Version="12.0.3" />  <!-- Has known vulnerabilities -->
+    <PackageVersion Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageVersion Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.3.0" />  <!-- Has known vulnerabilities -->
     <PackageVersion Include="System.Text.RegularExpressions" Version="4.3.0" /> <!-- Known regex vulnerability -->
     <PackageVersion Include="System.Net.Http" Version="4.3.0" /> <!-- Contains security vulnerabilities -->
     
