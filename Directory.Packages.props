@@ -13,7 +13,7 @@
     <!-- Has known vulnerabilities -->
     <PackageVersion Include="System.Text.RegularExpressions" Version="4.3.0" />
     <!-- Known regex vulnerability -->
-    <PackageVersion Include="System.Net.Http" Version="4.3.3" />
+    <PackageVersion Include="System.Net.Http" Version="4.3.3" /> 
     <!-- Contains security vulnerabilities -->
     <!-- API dependencies -->
     <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
